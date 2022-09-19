@@ -40,7 +40,7 @@
 
                 <li>
                     <a href="{{url('index')}}">
-                        <i class="uil-home-alt"></i><span class="badge rounded-pill bg-primary float-end">01</span>
+                        <i class="uil-home-alt"></i><span class="badge rounded-pill bg-primary float-end"></span>
                         <span>@lang('translation.Dashboard')</span>
                     </a>
                 </li>

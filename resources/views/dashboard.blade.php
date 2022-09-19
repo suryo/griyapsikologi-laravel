@@ -14,11 +14,11 @@
                     <div id="total-revenue-chart"></div>
                 </div>
                 <div>
-                    <h4 class="mb-1 mt-1">$<span data-plugin="counterup">34,152</span></h4>
+                    <h4 class="mb-1 mt-1"><span data-plugin="counterup"></span></h4>
                     <p class="text-muted mb-0">Peserta</p>
                 </div>
-                <p class="text-muted mt-3 mb-0"><span class="text-success me-1"><i class="mdi mdi-arrow-up-bold me-1"></i>2.65%</span> since last week
-                </p>
+                {{-- <p class="text-muted mt-3 mb-0"><span class="text-success me-1"><i class="mdi mdi-arrow-up-bold me-1"></i>2.65%</span> since last week
+                </p> --}}
             </div>
         </div>
     </div> <!-- end col-->
@@ -33,8 +33,8 @@
                     <h4 class="mb-1 mt-1"><span data-plugin="counterup"><?php echo ($data["datatiucount"])  ?></span></h4>
                     <p class="text-muted mb-0">TIU</p>
                 </div>
-                <p class="text-muted mt-3 mb-0"><span class="text-danger me-1"><i class="mdi mdi-arrow-down-bold me-1"></i>0.82%</span> since last week
-                </p>
+                {{-- <p class="text-muted mt-3 mb-0"><span class="text-danger me-1"><i class="mdi mdi-arrow-down-bold me-1"></i>0.82%</span> since last week
+                </p> --}}
             </div>
         </div>
     </div> <!-- end col-->
@@ -49,8 +49,8 @@
                     <h4 class="mb-1 mt-1"><span data-plugin="counterup"><?php echo ($data["datapapicount"])  ?></span></h4>
                     <p class="text-muted mb-0">PAPI</p>
                 </div>
-                <p class="text-muted mt-3 mb-0"><span class="text-danger me-1"><i class="mdi mdi-arrow-down-bold me-1"></i>6.24%</span> since last week
-                </p>
+                {{-- <p class="text-muted mt-3 mb-0"><span class="text-danger me-1"><i class="mdi mdi-arrow-down-bold me-1"></i>6.24%</span> since last week
+                </p> --}}
             </div>
         </div>
     </div> <!-- end col-->
@@ -66,8 +66,8 @@
                     <h4 class="mb-1 mt-1"><span data-plugin="counterup"><?php echo ($data["datariaseccount"])  ?></span></h4>
                     <p class="text-muted mb-0">RIASEC</p>
                 </div>
-                <p class="text-muted mt-3 mb-0"><span class="text-success me-1"><i class="mdi mdi-arrow-up-bold me-1"></i>10.51%</span> since last week
-                </p>
+                {{-- <p class="text-muted mt-3 mb-0"><span class="text-success me-1"><i class="mdi mdi-arrow-up-bold me-1"></i>10.51%</span> since last week
+                </p> --}}
             </div>
         </div>
     </div> <!-- end col-->
