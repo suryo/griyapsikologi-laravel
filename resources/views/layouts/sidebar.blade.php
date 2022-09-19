@@ -5,19 +5,23 @@
     <div class="navbar-brand-box">
         <a href="{{url('index')}}" class="logo logo-dark">
             <span class="logo-sm">
-                <img src="{{ URL::asset('/assets/images/logo-supresso.png') }}" alt="" height="22">
+                {{-- <img src="{{ URL::asset('/assets/images/logo-supresso.png') }}" alt="" height="22"> --}}
+                GRIYA PSIKOLOGI
             </span>
             <span class="logo-lg">
-                <img src="{{ URL::asset('/assets/images/logo-supresso.png') }}" alt="" height="20">
+                {{-- <img src="{{ URL::asset('/assets/images/logo-supresso.png') }}" alt="" height="20"> --}}
+                GRIYA PSIKOLOGI
             </span>
         </a>
 
         <a href="{{url('index')}}" class="logo logo-light">
             <span class="logo-sm">
-                <img src="{{ URL::asset('/assets/images/logo-supresso.png') }}" alt="" height="22">
+                {{-- <img src="{{ URL::asset('/assets/images/logo-supresso.png') }}" alt="" height="22"> --}}
+                GRIYA PSIKOLOGI
             </span>
             <span class="logo-lg">
-                <img src="{{ URL::asset('/assets/images/logo-supresso.png') }}" alt="" height="20">
+                {{-- <img src="{{ URL::asset('/assets/images/logo-supresso.png') }}" alt="" height="20"> --}}
+                GRIYA PSIKOLOGI
             </span>
         </a>
     </div>
@@ -57,7 +61,7 @@
                     </ul>
                 </li>
 
-                <li>
+                {{-- <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="uil-window-section"></i>
                         <span>@lang('translation.Members')</span>
@@ -68,9 +72,30 @@
                         <li><a href="tables-responsive3">@lang('Access')</a></li>
                         <li><a href="tables-responsive4">@lang('Permission')</a></li>
                     </ul>
+                </li> --}}
+<li>
+                    <a href="{{url('tiu')}}">
+                        <i class="uil-home-alt"></i>
+                        <span>@lang('TIU RESULT')</span>
+                    </a>
+                </li>
+                  <li>
+                    <a href="{{url('papi')}}">
+                        <i class="uil-home-alt"></i>
+                        <span>@lang('PAPI RESULT')</span>
+                    </a>
                 </li>
 
-                <li>
+                  <li>
+                    <a href="{{url('riasec')}}">
+                        <i class="uil-home-alt"></i>
+                        <span>@lang('RIASEC RESULT')</span>
+                    </a>
+                </li>
+
+                  
+
+                {{-- <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="uil-store"></i>
                         <span>@lang('Store')</span>
@@ -188,7 +213,7 @@
 
 
 
-                {{-- <li>
+                <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="uil-window-section"></i>
                         <span>@lang('translation.Layouts')</span>
@@ -215,26 +240,26 @@
                             </ul>
                         </li>
                     </ul>
-                </li> --}}
+                </li>
 
-                {{-- <li class="menu-title">@lang('translation.Apps')</li> --}}
+                <li class="menu-title">@lang('translation.Apps')</li>
 
-                {{-- <li>
+                <li>
                     <a href="calendar" class="waves-effect">
                         <i class="uil-calender"></i>
                         <span>@lang('translation.Calendar')</span>
                     </a>
-                </li> --}}
+                </li>
 
-                {{-- <li>
+                <li>
                     <a href="chat" class=" waves-effect">
                         <i class="uil-comments-alt"></i>
                         <span class="badge rounded-pill bg-warning float-end">New</span>
                         <span>@lang('translation.Chat')</span>
                     </a>
-                </li> --}}
+                </li>
 
-                {{-- <li>
+                <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="uil-store"></i>
                         <span>@lang('translation.Ecommerce')</span>
@@ -249,9 +274,9 @@
                         <li><a href="ecommerce-shops">@lang('translation.Shops')</a></li>
                         <li><a href="ecommerce-add-product">@lang('translation.Add_Product')</a></li>
                     </ul>
-                </li> --}}
+                </li>
 
-                {{-- <li>
+                <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="uil-envelope"></i>
                         <span>@lang('translation.Email')</span>
@@ -260,9 +285,9 @@
                         <li><a href="email-inbox">@lang('translation.Inbox')</a></li>
                         <li><a href="email-read">@lang('translation.Read_Email')</a></li>
                     </ul>
-                </li> --}}
+                </li>
 
-                {{-- <li>
+                <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="uil-invoice"></i>
                         <span>@lang('translation.Invoices')</span>
@@ -271,9 +296,9 @@
                         <li><a href="invoices-list">@lang('translation.Invoice_List')</a></li>
                         <li><a href="invoices-detail">@lang('translation.Invoice_Detail')</a></li>
                     </ul>
-                </li> --}}
+                </li>
 
-                {{-- <li>
+                <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="uil-book-alt"></i>
                         <span>@lang('translation.Contacts')</span>
@@ -283,11 +308,11 @@
                         <li><a href="contacts-list">@lang('translation.User_List')</a></li>
                         <li><a href="contacts-profile">@lang('translation.Profile')</a></li>
                     </ul>
-                </li> --}}
+                </li>
 
-                {{-- <li class="menu-title">@lang('translation.Pages')</li> --}}
+                <li class="menu-title">@lang('translation.Pages')</li>
 
-                {{-- <li>
+                <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="uil-user-circle"></i>
                         <span>@lang('translation.Authentication')</span>
@@ -298,9 +323,9 @@
                         <li><a href="auth-recoverpw">@lang('translation.Recover_Password')</a></li>
                         <li><a href="auth-lock-screen">@lang('translation.Lock_Screen')</a></li>
                     </ul>
-                </li> --}}
+                </li>
 
-                {{-- <li>
+                <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="uil-file-alt"></i>
                         <span>@lang('translation.Utility')</span>
@@ -315,11 +340,11 @@
                         <li><a href="pages-404">@lang('translation.Error_404')</a></li>
                         <li><a href="pages-500">@lang('translation.Error_500')</a></li>
                     </ul>
-                </li> --}}
+                </li>
 
-                {{-- <li class="menu-title">@lang('translation.Components')</li> --}}
+                <li class="menu-title">@lang('translation.Components')</li>
 
-                {{-- <li>
+                <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="uil-flask"></i>
                         <span>@lang('translation.UI_Elements')</span>
@@ -346,9 +371,9 @@
                         <li><a href="ui-rating">@lang('translation.Rating')</a></li>
                         <li><a href="ui-notifications">@lang('translation.Notifications')</a></li>
                     </ul>
-                </li> --}}
+                </li>
 
-                {{-- <li>
+                <li>
                     <a href="javascript: void(0);" class="waves-effect">
                         <i class="uil-shutter-alt"></i>
                         <span class="badge rounded-pill bg-info float-end">6</span>
@@ -365,9 +390,9 @@
                         <li><a href="form-wizard">@lang('translation.Wizard')</a></li>
                         <li><a href="form-mask">@lang('translation.Mask')</a></li>
                     </ul>
-                </li> --}}
+                </li>
 
-                {{-- <li>
+                <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="uil-list-ul"></i>
                         <span>@lang('translation.Tables')</span>
@@ -378,9 +403,9 @@
                         <li><a href="tables-responsive">@lang('translation.Responsive')</a></li>
                         <li><a href="tables-editable">@lang('translation.Editable')</a></li>
                     </ul>
-                </li> --}}
+                </li>
 
-                {{-- <li>
+                <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="uil-chart"></i>
                         <span>@lang('translation.Charts')</span>
@@ -392,9 +417,9 @@
                         <li><a href="charts-knob">@lang('translation.Jquery_Knob')</a></li>
                         <li><a href="charts-sparkline">@lang('translation.Sparkline')</a></li>
                     </ul>
-                </li> --}}
+                </li>
 
-                {{-- <li>
+                <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="uil-streering"></i>
                         <span>@lang('translation.Icons')</span>
@@ -406,9 +431,9 @@
                         <li><a href="icons-dripicons">@lang('translation.Dripicons')</a></li>
                         <li><a href="icons-fontawesome">@lang('translation.Font_Awesome')</a></li>
                     </ul>
-                </li> --}}
+                </li>
 
-                {{-- <li>
+                <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="uil-location-point"></i>
                         <span>@lang('translation.Maps')</span>
@@ -418,9 +443,9 @@
                         <li><a href="maps-vector">@lang('translation.Vector')</a></li>
                         <li><a href="maps-leaflet">@lang('translation.Leaflet')</a></li>
                     </ul>
-                </li> --}}
+                </li>
 
-                {{-- <li>
+                <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="uil-share-alt"></i>
                         <span>@lang('translation.Multi_Level')</span>

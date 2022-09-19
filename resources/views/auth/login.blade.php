@@ -12,10 +12,10 @@
                 <div class="col-lg-12">
                     <div class="text-center">
                         <a href="{{ url('index') }}" class="mb-5 d-block auth-logo">
-                            <img src="{{ URL::asset('/assets/images/logo-supresso.png') }}" alt="" height="22"
-                                class="logo logo-dark">
-                            <img src="{{ URL::asset('/assets/images/logo-supresso.png') }}" alt="" height="22"
-                                class="logo logo-light">
+                            {{-- <img src="{{ URL::asset('/assets/images/logo-supresso.png') }}" alt="" height="22"
+                                class="logo logo-dark"> --}}
+                            {{-- <img src="{{ URL::asset('/assets/images/logo-supresso.png') }}" alt="" height="22"
+                                class="logo logo-light"> --}}GRIYA PSIKOLOGI
                         </a>
                     </div>
                 </div>
@@ -27,7 +27,7 @@
                         <div class="card-body p-4">
                             <div class="text-center mt-2">
                                 <h5 class="text-primary">Welcome Back !</h5>
-                                <p class="text-muted">Sign in to continue to Supresso.</p>
+                                <p class="text-muted">Sign in to continue to GRIYA PSIKOLOGI.</p>
                             </div>
                             <div class="p-2 mt-4">
                                 <form method="POST" action="{{ route('login') }}">
@@ -115,7 +115,7 @@
                         <p>© <script>
                                 document.write(new Date().getFullYear())
 
-                            </script> Supresso
+                            </script> GRIYA PSIKOLOGI
                             {{-- . Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesbrand --}}
                         </p>
                     </div>
